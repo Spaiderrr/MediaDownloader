@@ -1,0 +1,4 @@
+yt-dlp>=2024.12.13
+customtkinter>=5.2.2
+requests>=2.31.0
+packaging>=23.2
