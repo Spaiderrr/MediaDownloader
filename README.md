@@ -33,12 +33,12 @@ A powerful GUI application for downloading videos and audio from YouTube and oth
 5. **Pick Folder** - Where to save downloaded files
 6. **Click START** - Watch the progress!
 
-### Playlist Range Examples
+## Playlist Range Examples
 - `1-10` - First 10 videos
 - `5,10,15` - Specific tracks
 - `1-5,10,15-20` - Mixed range
 
-### Getting 18+ Content
+## Getting 18+ Content
 Click **"Login to YouTube"** button, enter your browser name (chrome, firefox, edge), and make sure you're logged into YouTube in that browser.
 
 ## 📦 Dependencies
