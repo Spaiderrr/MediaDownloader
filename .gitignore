@@ -1,0 +1,34 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Сборки PyInstaller
+dist/
+build/
+*.spec
+
+# Настройки PyCharm
+.idea/
+.vscode/
+
+# Файлы настроек программы (содержат пути к вашему ПК)
+settings.json
+
+# Папка с ffmpeg (большая, пользователь скачает сам)
+ffmpeg/
+
+# Временные файлы
+__pycache__/
+*.pyc
+*.pyo
+
+# Файлы установщика
+*.exe
+*.msi
+setup/
+Output/
+
+# Логи
+*.log
