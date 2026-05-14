@@ -23,4 +23,40 @@ A powerful GUI application for downloading videos and audio from YouTube and oth
 ## 📋 Requirements
 
 - Windows 10 / 11 (64-bit)
-- No additional software required (FFmpeg is included in the installer)
+
+## 🎮 Usage
+
+1. **Paste URL** - YouTube video or playlist link
+2. **Choose Format** - Audio (MP3) or Video (MP4)
+3. **Select Quality** - Bitrate for audio, resolution for video
+4. **Set Fragments** - Higher = faster downloads (default 10)
+5. **Pick Folder** - Where to save downloaded files
+6. **Click START** - Watch the progress!
+
+## Playlist Range Examples
+- `1-10` - First 10 videos
+- `5,10,15` - Specific tracks
+- `1-5,10,15-20` - Mixed range
+
+## Getting 18+ Content
+Click **"Login to YouTube"** button, enter your browser name (chrome, firefox, edge), and make sure you're logged into YouTube in that browser.
+
+## 📦 Dependencies
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - YouTube downloading backend
+- [customtkinter](https://github.com/TomSchimansky/CustomTkinter) - Modern UI widgets
+- [requests](https://docs.python-requests.org/) - HTTP requests for updates
+- [packaging](https://packaging.pypa.io/) - Version comparison
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - The core downloading engine
+- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - Beautiful UI components

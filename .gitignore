@@ -13,10 +13,10 @@ build/
 .idea/
 .vscode/
 
-# Файлы настроек программы (содержат пути к вашему ПК)
+# Файлы настроек программы
 settings.json
 
-# Папка с ffmpeg (большая, пользователь скачает сам)
+# Папка с ffmpeg
 ffmpeg/
 
 # Временные файлы
@@ -32,3 +32,7 @@ Output/
 
 # Логи
 *.log
+
+# Мои файлы
+Text Document.txt
+InnoSetupMediaDownloader/

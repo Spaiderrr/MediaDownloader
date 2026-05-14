@@ -231,6 +231,7 @@ class DownloaderApp(ctk.CTk):
         self.download_thread = None
 
         self.lang = LanguageManager()
+        self.lang.set_language("en")  # Английский по умолчанию
 
         # FFmpeg
         base_path = os.path.dirname(os.path.abspath(__file__))
@@ -281,9 +282,17 @@ class DownloaderApp(ctk.CTk):
             pass
 
     def apply_settings(self):
-        saved_lang = self.settings.get("language", "ru")
+        # Загружаем сохранённый язык, если нет - английский
+        saved_lang = self.settings.get("language", "en")
         if saved_lang in ["ru", "en"]:
             self.lang.set_language(saved_lang)
+
+        # Синхронизируем переключатель языка (если он уже создан)
+        if hasattr(self, 'language_switch'):
+            if self.lang._current_lang == "ru":
+                self.language_switch.set("Русский")
+            else:
+                self.language_switch.set("English")
 
         self.format_var.set(self.settings.get("last_format", "mp3"))
         self.update_quality_options(keep_value=True)
