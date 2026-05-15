@@ -59,8 +59,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - The core downloading engine
-<<<<<<< HEAD
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - Beautiful UI components
-=======
-- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - Beautiful UI components
->>>>>>> f2a603b1741f12ed9115ef157834118138159dde
